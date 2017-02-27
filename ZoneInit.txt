@@ -1,0 +1,56 @@
+How to define a Zone: Type(One of the below types exactly like shown below),Difficulty(A double so It can be whatever you like),Description(or the name of the zone)
+Anything below the zone list line will be seen as a zone until there are no more lines
+You must define only zone types below zone list. If there is any line that is not a zone definition, including empty lines
+an error will be thrown.
+
+If you wish to add or remove zone types you must open up the java source code and add or remove from the enum Type in
+Zone.java then you must re-make the .jar file for this program.
+ZONETYPES: Floor, Surface, Window, Dishes, Mail, Outside, Basement, Bathroom, Dust, Trash, Vacuum
+
+
+Example Zone:
+Floor,5,Sweep/Mop dining room floor
+
+ZONELIST:
+Outside,4,Water the bushes
+Outside,4,Pick up stray trash outside
+Basement,6,Clean and organize pool room
+Basement,7,Clean and organize laundry room
+Window,3,Laundry room windows
+Floor,5,Sweep/mop kitchen
+Surface,5,Clean the freezer
+Dishes,9,Clean the dishes and kitchen sink
+Surface,5,Clean the fridges
+Window,3,Kitchen windows
+Floor,6,Sweep/mop serving room
+Surface,5,Clean and organize serving room
+Trash,4,Take out recycling
+Surface,5,Clean appliances
+Window,4,Serving room windows
+Floor,8,Sweep/mop dining room
+Window,6,Dining room windows
+Surface,7,Clean and organize dining room
+Vacuum,5,Vacuum bar room
+Floor,4,Sweep/mop bar room
+Window,4,Bar room windows
+Surface,6,Clean and organize bar room
+Vacuum,5,Vacuum chapter room
+Window,3,Chapter room windows
+Surface,6,Clean and organize chapter room
+Dust,3,Dust trophies and composites
+Vacuum,6,Vacuum living room
+Window,5,Living room windows
+Surface,5,Clean and organize living room
+Surface,4,Clean and organize foyer
+Floor,6,Sweep/mop foyer
+Mail,4,Pick up House mail and put it in foyer
+Bathroom,5,Sweep/mop women's bathroom
+Bathroom,5,Clean women's bathroom toilet
+Bathroom,5,Clean and organize women's bathroom
+Vacuum,6,Vacuum stairs and hallway
+Bathroom,6,Clean men's shower
+Bathroom,7,Clean men's bathroom toilets and stall walls
+Bathroom,5,Clean and organize men's bathroom
+Bathroom,4,Mop men's shower and clean the drain
+Bathroom,5,Sweep/mop men's bathroom
+Bathroom,6,Clean men's bathroom urinals and floor underneath

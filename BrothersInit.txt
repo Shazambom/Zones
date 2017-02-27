@@ -1,0 +1,12 @@
+How to define a brother: Just give them a name and email address
+Everything below the brothers list line will be seen as a brother until there is no more lines
+Example:Ian,mrderp14@gmail.com
+There must be no lines including empty lines below brother list that are not Brother object definitions otherwise
+errors will be thrown.
+
+You can define the threshold before hand by typing all capital threshold =x (x as in the number you want)
+You can also define the error before hand by typing all capital error =y (y as in the number you want)
+
+
+BROTHERSLIST:
+example,example@example.com
