@@ -9,8 +9,8 @@ import com.sendgrid.*;
  * Created by ian on 12/15/15.
  */
 public class Main {
-    public static String SG_API_KEY = "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";
-    public static String USERNAME = "ZBTZones@gmail.com";
+    public static String SG_API_KEY = "";
+    public static String USERNAME = "";
     public static void main(String[] args) {
         try {
             PrintWriter out = new PrintWriter(new File("output.txt"));
