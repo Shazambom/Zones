@@ -40,7 +40,7 @@ public class Main {
             }
             out.println("Zones left over: " + zones.size());
             for (Brother element : brothers) {
-                out.println(element.toString() + element.getDifficulty() + "\n");
+                out.println(element.toString() + element.getDifficulty() + "<br>");
             }
             out.close();
             SendGrid sendgrid = new SendGrid(SG_API_KEY);
@@ -51,7 +51,7 @@ public class Main {
             try (BufferedReader br = new BufferedReader(new FileReader(new File("output.txt")))) {
                 String line;
                 while ((line = br.readLine()) != null) {
-                    outputString += line + "\n";
+                    outputString += line + "<br>";
                 }
                 br.close();
             }
